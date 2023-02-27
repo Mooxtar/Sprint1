@@ -1,0 +1,121 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: rgb(127, 16, 16);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1%;
+    height: 50px;
+    align-items: center;
+}
+
+
+.lists{
+    display: flex;
+    list-style: none;
+    float: right;
+    padding-right: 4%;
+    column-gap: 3%;
+    opacity: 0.5;
+}
+
+.list-container{
+    width: 80%;
+    float: right;
+}
+
+.bitlab{
+    float: left;
+    width: 20%;
+}
+
+.bitlab p{
+    padding-left: 5%;
+    justify-content: center;
+    font-weight: 200;
+}
+.orta{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.khabib{
+    width: 40%;
+    float: left;
+    display: flex;
+    justify-content: center;
+}
+
+.khabib img{
+    width: 90%;
+    padding: 20px;
+}
+
+main{
+    background-color: rgb(135, 211, 211);
+
+}
+
+.sum{
+    padding: 20px;
+}
+
+.khabib-text{
+    width: 60%;
+    float: right;
+    line-height: 27px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 110%;
+    padding: 20px;
+    padding-left: 0;
+
+}
+
+.latest{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-container{
+    width: 23%;
+    border: 1px solid rgb(206, 206, 206);
+}
+
+.card-container img{
+    width: 100%;
+
+}
+
+.red-btn{
+    background-color: darkred;
+    border: none;
+    color: white;
+    padding: 6px 6px;
+}
+
+.card-bottom{
+    padding: 15px;
+}
+
+.card-main-text{
+    padding-bottom: 15px;
+}
+
+.card-text{
+    padding-bottom: 15px;
+    color: rgb(87, 87, 87);
+}
